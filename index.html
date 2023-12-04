@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ahorcado - Víctor García Hernández</title><!-- Titulo de pestaña -->
+    <link rel="stylesheet" href="/Css/Estilo.css"> <!-- Interconexion entre el html y el css -->
+    <link rel="icon" href="https://icons.iconarchive.com/icons/aaron-sinuhe/alphabet-file-folder/256/G-icon.png"> <!-- Logo de la pestaña -->
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>Juego del Ahorcado</h1>
+        <!--Titulo -->
+        <p>Adivina el elemento relacionado con el mundo del motor.</p><!-- Texto informativo -->
+
+
+        <p id="problema"></p>
+        <br>
+        <h2 id="perdicion"></h2>
+        <h2 id="ganador"></h2>
+
+        <h3 id="perdedor"></h3>
+
+        <p>Intentos restantes: <span id="intentos">4</span></p><!-- Contador base de intentos -->
+        <div class="caja">
+            <abbr title="Introducir una letra"><input type="text" maxlength="1" id="letras"></abbr><!-- Caja de texto para introducir las letras -->
+            <abbr title="Comprobar letra"><button id="hallar" class="emerald left">Comprobar</button></abbr><br> <!-- Boton para comprobar si la letra es correcta -->
+            <abbr title="Obtener una nueva palabra para adivinar"><input type="button" value="Nueva palabra" onclick="location.reload()" class="emerald" /></abbr> <!-- Boton para reiniciar la pagina y obtener una palabra nueva para adivinar -->
+        </div>
+        <br>
+        <div id="ahorcado"></div>
+
+        <h2 id="contador"></h2>
+
+        <footer>
+            <p>Ahorcado de Víctor García Hernández</p> <!-- Nombre del autor -->
+
+        </footer>
+
+    </div>
+
+
+    <audio autoplay class="audio1">
+        <source src="/Audio/audio.mp3" type="audio/mpeg"> <!-- Audio que se escucha una vez se comienza a interactuar con la pagina para amenizar el juego -->
+
+    </audio>
+
+
+    <script src="/JavaScript/ahorcado.js"></script><!-- interconexion entre html y javascript -->
+
+
+
+
+</body>
+
+</html>

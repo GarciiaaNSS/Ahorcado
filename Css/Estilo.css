@@ -1,0 +1,104 @@
+#ahorcado {
+    height: 258px;
+    width: 264px;
+    background-image: url(/Img/imagen2.png);
+    margin-left: 270px;
+}
+
+
+/*css pagina*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: cadetblue;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+}
+
+#perdicion {
+    color: crimson;
+}
+
+#ganador {
+    color: limegreen;
+}
+
+#container {
+    width: 800px;
+    max-height: 800px;
+    margin: 10px auto;
+    padding: 0.5em;
+    background: beige;
+    text-align: left;
+    border: 2px solid black;
+    padding: 10px
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px
+}
+
+#cabecera {
+    text-align: center;
+}
+
+.caja {
+    text-align: center;
+
+}
+
+.emerald {
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(deepskyblue, royalblue);
+}
+
+.left {
+    margin-left: 5px;
+}
+
+.right {
+    padding-right: 10px;
+}
+
+.volume {
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(lightgray, gray);
+
+}
+
+.Music-On {
+    height: 25px;
+    width: auto;
+
+}
